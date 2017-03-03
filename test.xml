@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Chennai</name>
+    <type>Regional capital</type>
+    <country>India</country>
+    <timezone id="Asia/Kolkata" utcoffsetMinutes="330" />
+    <location altitude="14" latitude="13.08784" longitude="80.27847" geobase="geonames" geobaseid="1264527" />
+  </location>
+  <credit>
+    <!--In order to use the free weather data from yr no, you HAVE to display 
+the following text clearly visible on your web page. The text should be a 
+link to the specified URL.-->
+    <!--Please read more about our conditions and guidelines at http://om.yr.no/verdata/  English explanation at http://om.yr.no/verdata/free-weather-data/-->
+    <link text="Weather forecast from Yr, delivered by the Norwegian Meteorological Institute and the NRK" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/forecast.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/forecast_hour_by_hour.xml" />
+    <link id="overview" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/" />
+    <link id="hourByHour" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/hour_by_hour" />
+    <link id="longTermForecast" url="http://www.yr.no/place/India/Tamil_Nadu/Chennai/long" />
+  </links>
+  <meta>
+    <lastupdate>2017-03-03T01:12:00</lastupdate>
+    <nextupdate>2017-03-03T13:30:00</nextupdate>
+  </meta>
+  <sun rise="2017-03-03T06:23:48" set="2017-03-03T18:17:59" />
+  <forecast>
+    <tabular>
+      <time from="2017-03-03T14:30:00" to="2017-03-03T17:30:00" period="2">
+        <!-- Valid from 2017-03-03T14:30:00 to 2017-03-03T17:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-03T14:30:00 -->
+        <windDirection deg="93.0" code="E" name="East" />
+        <windSpeed mps="3.7" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1007.3" />
+      </time>
+      <time from="2017-03-03T17:30:00" to="2017-03-03T23:30:00" period="3">
+        <!-- Valid from 2017-03-03T17:30:00 to 2017-03-03T23:30:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.17" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-03T17:30:00 -->
+        <windDirection deg="99.6" code="E" name="East" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1007.1" />
+      </time>
+      <time from="2017-03-03T23:30:00" to="2017-03-04T05:30:00" period="0">
+        <!-- Valid from 2017-03-03T23:30:00 to 2017-03-04T05:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.21" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-03T23:30:00 -->
+        <windDirection deg="123.1" code="ESE" name="East-southeast" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2017-03-04T05:30:00" to="2017-03-04T11:30:00" period="1">
+        <!-- Valid from 2017-03-04T05:30:00 to 2017-03-04T11:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-04T05:30:00 -->
+        <windDirection deg="170.4" code="S" name="South" />
+        <windSpeed mps="1.3" name="Light air" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1007.4" />
+      </time>
+      <time from="2017-03-04T11:30:00" to="2017-03-04T17:30:00" period="2">
+        <!-- Valid from 2017-03-04T11:30:00 to 2017-03-04T17:30:00 -->
+        <symbol number="9" numberEx="46" name="Light rain" var="46" />
+        <precipitation value="0.9" />
+        <!-- Valid at 2017-03-04T11:30:00 -->
+        <windDirection deg="150.1" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1010.8" />
+      </time>
+      <time from="2017-03-04T17:30:00" to="2017-03-04T23:30:00" period="3">
+        <!-- Valid from 2017-03-04T17:30:00 to 2017-03-04T23:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-04T17:30:00 -->
+        <windDirection deg="152.9" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1007.2" />
+      </time>
+      <time from="2017-03-04T23:30:00" to="2017-03-05T05:30:00" period="0">
+        <!-- Valid from 2017-03-04T23:30:00 to 2017-03-05T05:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.24" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-04T23:30:00 -->
+        <windDirection deg="180.4" code="S" name="South" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1010.0" />
+      </time>
+      <time from="2017-03-05T05:30:00" to="2017-03-05T11:30:00" period="1">
+        <!-- Valid from 2017-03-05T05:30:00 to 2017-03-05T11:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-05T05:30:00 -->
+        <windDirection deg="227.7" code="SW" name="Southwest" />
+        <windSpeed mps="2.8" name="Light breeze" />
+        <temperature unit="celsius" value="25" />
+        <pressure unit="hPa" value="1008.0" />
+      </time>
+      <time from="2017-03-05T11:30:00" to="2017-03-05T17:30:00" period="2">
+        <!-- Valid from 2017-03-05T11:30:00 to 2017-03-05T17:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-05T11:30:00 -->
+        <windDirection deg="148.0" code="SSE" name="South-southeast" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1010.2" />
+      </time>
+      <time from="2017-03-05T17:30:00" to="2017-03-05T23:30:00" period="3">
+        <!-- Valid from 2017-03-05T17:30:00 to 2017-03-05T23:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-05T17:30:00 -->
+        <windDirection deg="149.5" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.0" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1006.3" />
+      </time>
+      <time from="2017-03-05T23:30:00" to="2017-03-06T05:30:00" period="0">
+        <!-- Valid from 2017-03-05T23:30:00 to 2017-03-06T05:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.27" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-05T23:30:00 -->
+        <windDirection deg="185.8" code="S" name="South" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1008.9" />
+      </time>
+      <time from="2017-03-06T05:30:00" to="2017-03-06T11:30:00" period="1">
+        <!-- Valid from 2017-03-06T05:30:00 to 2017-03-06T11:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="1.0" />
+        <!-- Valid at 2017-03-06T05:30:00 -->
+        <windDirection deg="200.3" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1007.5" />
+      </time>
+      <time from="2017-03-06T11:30:00" to="2017-03-06T17:30:00" period="2">
+        <!-- Valid from 2017-03-06T11:30:00 to 2017-03-06T17:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2017-03-06T11:30:00 -->
+        <windDirection deg="162.4" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1009.8" />
+      </time>
+      <time from="2017-03-06T17:30:00" to="2017-03-06T23:30:00" period="3">
+        <!-- Valid from 2017-03-06T17:30:00 to 2017-03-06T23:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.27" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-06T17:30:00 -->
+        <windDirection deg="155.4" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1006.3" />
+      </time>
+      <time from="2017-03-06T23:30:00" to="2017-03-07T05:30:00" period="0">
+        <!-- Valid from 2017-03-06T23:30:00 to 2017-03-07T05:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.31" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-06T23:30:00 -->
+        <windDirection deg="170.6" code="S" name="South" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.0" />
+      </time>
+      <time from="2017-03-07T05:30:00" to="2017-03-07T11:30:00" period="1">
+        <!-- Valid from 2017-03-07T05:30:00 to 2017-03-07T11:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-07T05:30:00 -->
+        <windDirection deg="217.2" code="SW" name="Southwest" />
+        <windSpeed mps="3.2" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1007.7" />
+      </time>
+      <time from="2017-03-07T11:30:00" to="2017-03-07T17:30:00" period="2">
+        <!-- Valid from 2017-03-07T11:30:00 to 2017-03-07T17:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-07T11:30:00 -->
+        <windDirection deg="159.0" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1009.8" />
+      </time>
+      <time from="2017-03-07T17:30:00" to="2017-03-07T23:30:00" period="3">
+        <!-- Valid from 2017-03-07T17:30:00 to 2017-03-07T23:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.31" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-07T17:30:00 -->
+        <windDirection deg="159.1" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.6" name="Moderate breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1006.3" />
+      </time>
+      <time from="2017-03-07T23:30:00" to="2017-03-08T05:30:00" period="0">
+        <!-- Valid from 2017-03-07T23:30:00 to 2017-03-08T05:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.34" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-07T23:30:00 -->
+        <windDirection deg="177.0" code="S" name="South" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.4" />
+      </time>
+      <time from="2017-03-08T05:30:00" to="2017-03-08T11:30:00" period="1">
+        <!-- Valid from 2017-03-08T05:30:00 to 2017-03-08T11:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.9" />
+        <!-- Valid at 2017-03-08T05:30:00 -->
+        <windDirection deg="202.9" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.3" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1008.1" />
+      </time>
+      <time from="2017-03-08T11:30:00" to="2017-03-08T17:30:00" period="2">
+        <!-- Valid from 2017-03-08T11:30:00 to 2017-03-08T17:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="1.5" />
+        <!-- Valid at 2017-03-08T11:30:00 -->
+        <windDirection deg="158.3" code="SSE" name="South-southeast" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="30" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2017-03-08T17:30:00" to="2017-03-08T23:30:00" period="3">
+        <!-- Valid from 2017-03-08T17:30:00 to 2017-03-08T23:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.34" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-08T17:30:00 -->
+        <windDirection deg="156.5" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1007.0" />
+      </time>
+      <time from="2017-03-08T23:30:00" to="2017-03-09T05:30:00" period="0">
+        <!-- Valid from 2017-03-08T23:30:00 to 2017-03-09T05:30:00 -->
+        <symbol number="4" numberEx="4" name="Cloudy" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-08T23:30:00 -->
+        <windDirection deg="172.3" code="S" name="South" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.1" />
+      </time>
+      <time from="2017-03-09T05:30:00" to="2017-03-09T11:30:00" period="1">
+        <!-- Valid from 2017-03-09T05:30:00 to 2017-03-09T11:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="1.0" />
+        <!-- Valid at 2017-03-09T05:30:00 -->
+        <windDirection deg="237.6" code="WSW" name="West-southwest" />
+        <windSpeed mps="2.5" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1008.1" />
+      </time>
+      <time from="2017-03-09T11:30:00" to="2017-03-09T17:30:00" period="2">
+        <!-- Valid from 2017-03-09T11:30:00 to 2017-03-09T17:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.6" />
+        <!-- Valid at 2017-03-09T11:30:00 -->
+        <windDirection deg="164.9" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.3" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1010.0" />
+      </time>
+      <time from="2017-03-09T17:30:00" to="2017-03-09T23:30:00" period="3">
+        <!-- Valid from 2017-03-09T17:30:00 to 2017-03-09T23:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.38" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-09T17:30:00 -->
+        <windDirection deg="153.8" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1006.6" />
+      </time>
+      <time from="2017-03-09T23:30:00" to="2017-03-10T05:30:00" period="0">
+        <!-- Valid from 2017-03-09T23:30:00 to 2017-03-10T05:30:00 -->
+        <symbol number="3" numberEx="3" name="Partly cloudy" var="mf/03n.41" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-09T23:30:00 -->
+        <windDirection deg="165.7" code="SSE" name="South-southeast" />
+        <windSpeed mps="4.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1009.3" />
+      </time>
+      <time from="2017-03-10T05:30:00" to="2017-03-10T11:30:00" period="1">
+        <!-- Valid from 2017-03-10T05:30:00 to 2017-03-10T11:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2017-03-10T05:30:00 -->
+        <windDirection deg="171.2" code="S" name="South" />
+        <windSpeed mps="3.8" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1008.3" />
+      </time>
+      <time from="2017-03-10T11:30:00" to="2017-03-10T17:30:00" period="2">
+        <!-- Valid from 2017-03-10T11:30:00 to 2017-03-10T17:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.5" />
+        <!-- Valid at 2017-03-10T11:30:00 -->
+        <windDirection deg="159.3" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1010.4" />
+      </time>
+      <time from="2017-03-10T17:30:00" to="2017-03-10T23:30:00" period="3">
+        <!-- Valid from 2017-03-10T17:30:00 to 2017-03-10T23:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.41" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-10T17:30:00 -->
+        <windDirection deg="154.6" code="SSE" name="South-southeast" />
+        <windSpeed mps="6.1" name="Moderate breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1007.2" />
+      </time>
+      <time from="2017-03-10T23:30:00" to="2017-03-11T05:30:00" period="0">
+        <!-- Valid from 2017-03-10T23:30:00 to 2017-03-11T05:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.44" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-10T23:30:00 -->
+        <windDirection deg="164.3" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.1" name="Gentle breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1010.3" />
+      </time>
+      <time from="2017-03-11T05:30:00" to="2017-03-11T11:30:00" period="1">
+        <!-- Valid from 2017-03-11T05:30:00 to 2017-03-11T11:30:00 -->
+        <symbol number="5" numberEx="40" name="Light rain showers" var="40d" />
+        <precipitation value="0.6" />
+        <!-- Valid at 2017-03-11T05:30:00 -->
+        <windDirection deg="198.5" code="SSW" name="South-southwest" />
+        <windSpeed mps="3.0" name="Light breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2017-03-11T11:30:00" to="2017-03-11T17:30:00" period="2">
+        <!-- Valid from 2017-03-11T11:30:00 to 2017-03-11T17:30:00 -->
+        <symbol number="5" numberEx="5" name="Rain showers" var="05d" />
+        <precipitation value="1.1" />
+        <!-- Valid at 2017-03-11T11:30:00 -->
+        <windDirection deg="165.7" code="SSE" name="South-southeast" />
+        <windSpeed mps="3.9" name="Gentle breeze" />
+        <temperature unit="celsius" value="29" />
+        <pressure unit="hPa" value="1011.6" />
+      </time>
+      <time from="2017-03-11T17:30:00" to="2017-03-11T23:30:00" period="3">
+        <!-- Valid from 2017-03-11T17:30:00 to 2017-03-11T23:30:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="mf/01n.44" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-11T17:30:00 -->
+        <windDirection deg="156.8" code="SSE" name="South-southeast" />
+        <windSpeed mps="5.4" name="Gentle breeze" />
+        <temperature unit="celsius" value="28" />
+        <pressure unit="hPa" value="1008.3" />
+      </time>
+      <time from="2017-03-11T23:30:00" to="2017-03-12T05:30:00" period="0">
+        <!-- Valid from 2017-03-11T23:30:00 to 2017-03-12T05:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="mf/02n.48" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-11T23:30:00 -->
+        <windDirection deg="169.1" code="S" name="South" />
+        <windSpeed mps="5.7" name="Moderate breeze" />
+        <temperature unit="celsius" value="27" />
+        <pressure unit="hPa" value="1010.5" />
+      </time>
+      <time from="2017-03-12T05:30:00" to="2017-03-12T11:30:00" period="1">
+        <!-- Valid from 2017-03-12T05:30:00 to 2017-03-12T11:30:00 -->
+        <symbol number="1" numberEx="1" name="Clear sky" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-12T05:30:00 -->
+        <windDirection deg="226.4" code="SW" name="Southwest" />
+        <windSpeed mps="3.6" name="Gentle breeze" />
+        <temperature unit="celsius" value="26" />
+        <pressure unit="hPa" value="1009.7" />
+      </time>
+      <time from="2017-03-12T11:30:00" to="2017-03-12T17:30:00" period="2">
+        <!-- Valid from 2017-03-12T11:30:00 to 2017-03-12T17:30:00 -->
+        <symbol number="2" numberEx="2" name="Fair" var="02d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-03-12T11:30:00 -->
+        <windDirection deg="181.2" code="S" name="South" />
+        <windSpeed mps="3.5" name="Gentle breeze" />
+        <temperature unit="celsius" value="31" />
+        <pressure unit="hPa" value="1011.0" />
+      </time>
+    </tabular>
+  </forecast>
+</weatherdata>
