@@ -48,7 +48,7 @@ if [ -z "\$LOCATION" ]; then
     display_help
 fi
 
-YR_NO_URL="http://www.yr.no/place/India/Tamil_Nadu/Chennai/forecast.xml"
+YR_NO_URL="http://www.yr.no/place/"\$LOCATION"/forecast.xml"
 
 STYLESHEET="$(sed 's/\"/\\\"/g' stylesheet.xsl | sed 's/\$/\\\$/g' | sed 's/^[ \t]*//' | sed '/^[ \t]*$/d' | sed ':a;N;$!ba;s/\n/ /g')"
 
