@@ -1,5 +1,5 @@
 #!/bin/sh
-OUT_NAME="forecast.sh"
+OUT_NAME="../forecast.sh"
 cat > "$OUT_NAME" << EOF
 #!/bin/bash
 
