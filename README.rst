@@ -12,7 +12,7 @@ Prerequisites
 Usage
 -----
 
-Copy the script ``forecast.sh`` to your ``$PATH`` and run
+Copy the script ``forecast.sh`` to a location in your ``$PATH`` and run
 
 .. code:: bash
 
