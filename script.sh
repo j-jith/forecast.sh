@@ -52,6 +52,6 @@ STYLESHEET="<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" v
 # check for xsltproc
 command -v xsltproc >/dev/null 2>&1 || { echo "This scripts requires xsltproc but it's not installed.  Aborting." >&2; exit 1; }
 # check for curl
-command -v curl >/dev/null 2>&1 || { echo "This scripts requires xsltproc but it's not installed.  Aborting." >&2; exit 1; }
+command -v curl >/dev/null 2>&1 || { echo "This scripts requires curl but it's not installed.  Aborting." >&2; exit 1; }
 
 xsltproc --param period-offset $PERIOD_OFFSET <(echo $STYLESHEET) <(curl -s "$YR_NO_URL")

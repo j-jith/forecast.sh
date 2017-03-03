@@ -56,7 +56,7 @@ STYLESHEET="$(sed 's/\"/\\\"/g' stylesheet.xsl | sed 's/\$/\\\$/g' | sed 's/^[ \
 command -v xsltproc >/dev/null 2>&1 || { echo "This scripts requires xsltproc but it's not installed.  Aborting." >&2; exit 1; }
 
 # check for curl
-command -v curl >/dev/null 2>&1 || { echo "This scripts requires xsltproc but it's not installed.  Aborting." >&2; exit 1; }
+command -v curl >/dev/null 2>&1 || { echo "This scripts requires curl but it's not installed.  Aborting." >&2; exit 1; }
 
 # fetch data
 xsltproc --param period-offset \$PERIOD_OFFSET <(echo \$STYLESHEET) <(curl -s "\$YR_NO_URL")
