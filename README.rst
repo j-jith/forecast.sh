@@ -12,6 +12,8 @@ Prerequisites
 Usage
 -----
 
+Copy the script ``forecast.sh`` to your ``$PATH`` and run
+
 .. code:: bash
 
     forecast.sh -l location -p period-offset
