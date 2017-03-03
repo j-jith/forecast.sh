@@ -10,7 +10,7 @@ display_help() {
     echo ""
     echo "period-offset (optional):"
     echo "-------------------------"
-    echo "Forecast is availbale for the following time periods:"
+    echo "Forecast is available for the following time periods:"
     echo "(0) 23:30-05:30, (1) 05:30-11:30,"
     echo "(2) 11:30-17:30, (3) 17:30-23:30."
     echo "period-offset of 0 (default) gives the forecast for the current"
